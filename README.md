@@ -29,7 +29,7 @@ Google Chrome:
 Jeżeli wszystko działa, dostaniesz powiadomienie ze strony.
 
 W przypadku gdy nic się nie pokaże:
-* chrome://extensions\
+* chrome://extensions
 * Kliknij w Szczegóły wtyczki Librus Anti-Logout
 * W kategorii Uprawnienia zaznacz opcję:
   Dostęp do stron\
