@@ -19,22 +19,22 @@ W przyszłości planuję dodać opcję zmiany czasu odświeżania, jednakże na 
 
 Google Chrome:
 
-chrome://extensions\
-Tryb dewelopera\
-Załaduj rozpakowane\
-Wybierz folder z rozpakowanym rozszerzeniem\
-Zaloguj się na Synergię\
-Naciśnij na ikonkę wtyczki i naciśnij przycisk "Click!" na pop-upie\
+* chrome://extensions
+* Tryb dewelopera
+* Załaduj rozpakowane
+* Wybierz folder z rozpakowanym rozszerzeniem
+* Zaloguj się na Synergię
+* Naciśnij na ikonkę wtyczki i naciśnij przycisk "Click!" na pop-upie
 
-Jeżeli wszystko działa, dostaniesz powiadomienie ze strony.\
+Jeżeli wszystko działa, dostaniesz powiadomienie ze strony.
 
-W przypadku gdy nic się nie pokaże:\
-chrome://extensions\
-Kliknij w Szczegóły wtyczki Librus Anti-Logout\
-W kategorii Uprawnienia zaznacz opcję:\
+W przypadku gdy nic się nie pokaże:
+* chrome://extensions\
+* Kliknij w Szczegóły wtyczki Librus Anti-Logout
+* W kategorii Uprawnienia zaznacz opcję:
   Dostęp do stron\
   Zezwól temu rozszerzeniu na odczytywanie i zmienianie wszystkich Twoich danych na stronach, które otwierasz:\
-  We wszystkich witrynach\
+  We wszystkich witrynach
 
 ## Release History
 
