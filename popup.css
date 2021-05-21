@@ -1,0 +1,30 @@
+body {
+    min-width:300px;
+}
+h1, h2, h3, h4, h5, h6, pre, button {
+	font-family: "Montserrat", sans-serif;	
+	color: #e5e5e5;
+	text-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+p {
+	color: #b1b1b1;
+	text-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+.czcionka {
+	font-family: 'Press Start 2P', cursive;
+	color: #e5e5e5;
+	text-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+.pulsate {
+	color: #e5e5e5;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+	text-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+.rainbow {
+	background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	text-shadow: 0 0 5px rgba(0,0,0,.5);
+}

@@ -1,0 +1,1 @@
+chrome.runtime.sendMessage({redirect: "http://portal.librus.pl/rodzina/"});
