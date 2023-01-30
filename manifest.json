@@ -1,14 +1,18 @@
 {
 	"name": "Librus Anti-Logout",
-	"version": "1.0",
-	"manifest_version": 2,
+	"version": "1.1",
+	"manifest_version": 3,
 	"author": "buddingromance.business@gmail.com",
 	"description": "Anti Session Expire + redirect",
-	"icons": {
-    "16": "icons/LAL16.png",
-    "48": "icons/LAL48.png",
-    "128": "icons/LAL128.png"
-	},
+	"action": {
+		"default_icon": {
+		  "16": "icons/LAL16.png",
+		  "48": "icons/LAL48.png",
+		  "128": "icons/LAL128.png"
+		},
+		"default_popup": "popup.html",
+		"default_title": "Anti-Logout"
+	  },
 	"content_scripts": [
 		{
 			"matches": ["https://synergia.librus.pl/*", "https://portal.librus.pl/*"],
@@ -25,19 +29,17 @@
 		
 	],
 	  "background": {
-      "scripts": [ "background.js" ]
+      "service_worker": "background.js"
   },
-	"browser_action": {
-		"default_popup": "popup.html",
-		"default_title": "Anti-Logout"
-	},
 	"permissions": [
     "storage",
-    "http://*/*",
-    "https://*/*",
     "webRequest",
-    "webRequestBlocking"
+    "declarativeNetRequest"
   ],
-  "update_url": "https://clients2.google.com/service/update2/crx",
-  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'"
+  "host_permissions": [
+  ],
+  "optional_host_permissions": [
+    "*://*/*"
+  ],
+  "update_url": "https://clients2.google.com/service/update2/crx"
 }
